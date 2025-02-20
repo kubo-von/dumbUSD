@@ -1,0 +1,7 @@
+# this file is needed to get autocomplete in Zed for c++ tinyusdz lib
+CompileFlags:
+  Add:
+    - -I/Users/jakubvondra/dev/dumbUSD/src/cpp/include/tinyusdz/src/  # Path to usdtinyz headers
+    - -L/Users/jakubvondra/dev/dumbUSD/src/cpp/include/tinyusdz/src/    # Path to usdtinyz libraries
+    - -tinyusdz                   # Link against the usdtinyz library
+    - -std=c++17                   # Ensure the correct C++ standard is set
